@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'deploy-django-to-azure.urls'
+ROOT_URLCONF = 'django_azure_demo.urls'
 
 TEMPLATES = [
     {

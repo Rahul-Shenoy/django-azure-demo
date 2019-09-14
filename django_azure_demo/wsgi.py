@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "deploy-django-to-azure.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_azure_demo.settings")
 
 application = get_wsgi_application()
